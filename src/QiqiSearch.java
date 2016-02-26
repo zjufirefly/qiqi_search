@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 public class QiqiSearch {
-	String words[] = new String[5];
+	String words[] = new String[7];
 	// key, 汉字 value，索引
 	HashMap dict_words = new HashMap();
 	
@@ -17,6 +17,8 @@ public class QiqiSearch {
 		words[2] = "伞包布皮书画灯光衣裙袜裤鞋帽毛巾工厂灭火灰尘家爷奶妈爸哥弟姐妹我你男女前后左右东西南北中宋郑李徐刘陈";
 		words[3] = "吴郭赵胡章婆伯叔姨阿视迷球国京兴空发脸孔眼睛朵齿嘴巴双脚腿铃正腰好您请茶给孩儿们和不见喊纱回今午读题";
 		words[4] = "图线圈号课骑钓枪汤肉芽冬柿条饭铺玉梅苹糕床他她是就辆张盏件块本个颗只支服红黄黑绿蓝围色生窗未袋偶爱剪";
+		words[5] = "箱角台背机器吸汽炮箭兵类极滑冷痰向现很羽过亮乌打刮滴把闪路进退底青蛙这桥子树河地麦消害许房做盆片竿短";
+		words[6] = "坡散边蛋要用太阳的真更溪碧鲜艳早晨旁在美丽燕有还白枝了样院久没班级借知识算魔术讲完成拿着老师事故听懂";
 		
 		
 		int count = 1;
