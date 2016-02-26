@@ -12,8 +12,10 @@ public class QiqiSearch {
 	HashMap can_read_dict_words = new HashMap();
 	
 	public void init_words() {
-		words[0] = "人头目眉鼻";
-		words[1] = "草山叶竹水";
+		words[0] = "人头目眉鼻耳口牙舌心手足身一二三四五六七八九十马牛羊鱼虫鸟天日月云风雨雪雷电田木米果瓜禾苗森林石亭花";
+		words[1] = "草山叶竹水土方圆尖大小高长弓刀勺面豆气分半点出入例外开关多少上下弯直来去吃喝吐立坐走飞看问哭笑车门井";
+		
+		
 		
 		int count = 1;
 		for (int i = 0; i < words.length; i++) {
