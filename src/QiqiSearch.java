@@ -1,3 +1,4 @@
+import java.util.Formatter;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -83,14 +84,20 @@ public class QiqiSearch {
 			System.out.println("");
 			System.out.println("查询结果如下");
 			for (int i = 0; i < input.length(); i++) {
-				System.out.print(input.charAt(i));
-				System.out.print("    ");
-				System.out.print(search.dict_words.get(input.charAt(i)));
-				System.out.print("    ");
-				if (search.can_read_dict_words.get(input.charAt(i)) != null) {
-					System.out.println("yes");
-				} else {
-					System.out.println("");
+				Formatter fmt = new Formatter();
+				if (search.dict_words.get(input.charAt(i)) != null) {
+					int group = (int)search.dict_words.get(input.charAt(i)) / 50 + 1;
+					int index = (int) search.dict_words.get(input.charAt(i));
+					String can_read = "";
+					if (search.can_read_dict_words.get(input.charAt(i)) != null) {
+						can_read = "yes";
+					}
+					String output = String.format("%c    %-2d    %-4d    %s", input.charAt(i), group, index, can_read);
+					System.out.println(output);
+				}
+				else {
+					String output = String.format("%c    %s", input.charAt(i), "null");
+					System.out.println(output);
 				}
 			}
 			System.out.println("");
