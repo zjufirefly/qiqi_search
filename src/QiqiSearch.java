@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 public class QiqiSearch {
-	String words[] = new String[10];
+	String words[] = new String[12];
 	// key, 汉字 value，索引
 	HashMap dict_words = new HashMap();
 	
@@ -22,6 +22,8 @@ public class QiqiSearch {
 		words[7] = "趣得觉起始专朋友象踢庭亲能够游泳盼望跑步蹦跳唱歌活泼快乐那些像什么怎病都想学校排队穿旗升城广播星送礼";
 		words[8] = "敬最响声祖说到瞧也菜额卷紧唇饱同岁拖饿擦汗帮助干净明聪夸奖自己年龄卡贺彩虹慢岭荷变化蝴蝶舞蹈梦乡吞湖";
 		words[9] = "颜再洗谁呢比赛对市节季春夏秋枯笔烈遮挡撑落降秘密取暖泥堆从滚玻璃常非鸭等于带斤江终猫爪买尺捉虾猴戏作";
+		words[10] = "业渴捡纸童呀哎瓦装船划放轻松挂钩晴朗间时候岸可以感谢喜欢两群尾兔养怕狗猎咬萝卜喂猪惊慌每次屋为因公主";
+		words[11] = "其他运动激选择微如熊加参刺猬辣椒填晚傍漂流哪棵迎接粗细桃核泪种结束摘梨错会拉差活力抓此苦新闻行粮食瓶";
 		
 		
 		int count = 1;
@@ -35,7 +37,7 @@ public class QiqiSearch {
 	}
 	
 	public void init_can_read_words() {
-		can_read_words = "人山";
+		can_read_words = "大小";
 		for (int i = 0; i < can_read_words.length(); i++) {
 			can_read_dict_words.put(can_read_words.charAt(i), true);
 		}
