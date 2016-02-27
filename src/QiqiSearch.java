@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 public class QiqiSearch {
-	String words[] = new String[20];
+	String words[] = new String[25];
 	// key, 汉字 value，索引
 	HashMap dict_words = new HashMap();
 	
@@ -32,6 +32,11 @@ public class QiqiSearch {
 		words[17] = "端碗捧舰艇杯盖炒栗煮饺团聚烧饼思念呼沙漠保护阵距离困难容易海滩无聊周站岗危险壶糟卫建设环境污染塑料搬";
 		words[18] = "貌鸥趴披匹坪稍哨拾掰闭尝丑导丁冻蹲帆整齐池塘蝌蚪蚯蚓蚂蚁被窝捕捞鸽笼罩平衡稳当原谅醉枣项链交叉转移铁";
 		words[19] = "锹挖坑砸缸受伤首先射击称赞英雄鼠诵猜谜租司令任务药膏医治疗照顾胸闷弹味精往返砖墙斗争展另遇皱劳累价格";
+		words[20] = "酒吧武艺准备餐厅蘑菇压扁虽然形状产品采访甘甜介绍瞎除夕党员醒淘鞠躬托盘联系应该顽哗啦忽略健康奔渔网桶";
+		words[21] = "钱柜朝霞胖瘦引悔输赢湿透继续热闹议论撕破敲鼓特别灵敏摔碎拥挤停顿优秀代替顺序宣传掌握即将遗留割断票投";
+		words[22] = "篮忆普通制造按怀疑组凉爽晾晒扫帚施肥浇灌唐古诗科技旅馆茂盛腊梅喷泉蜘蛛拔剑领楼层乘融描词语翅膀懒惰抬";
+		words[23] = "轿邮局烦恼秒表暴露雕刻针盒随便剩余驾驶艘速逃挑铜文惜席杏兄仿丰佛父各根共汉夹剧痛批评摆弄严肃扶梯检查";
+		words[24] = "肚肠承认修改闯祸诚实练嗓肯定恳求温度估计零沉浮棍棒催眠纺织秤杆习惯丝钢柱情况指挥演奏鞭躲避内村庄震聋";
 		
 		
 		int count = 1;
@@ -56,6 +61,7 @@ public class QiqiSearch {
 		search.init_words();
 		search.init_can_read_words();
 		
+		System.out.println(search.dict_words.size());
 		System.out.println("Please input words");
 		while (true) {
 			//创建输入对象
