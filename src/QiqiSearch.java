@@ -60,7 +60,8 @@ public class QiqiSearch {
 		can_read_words += "裤足左背这厂右器机偶台生六笔怎班暖步爱四播吸级剪未尺取窗捉蹦九箱的什角五泥色袋袜天风人头笑外瓜目牛羊";
 		can_read_words += "草鱼马耳鼻身飞手心口点三牙舌小电鸟林喝开少坐水半眉高看花月大多土去叶面井长直分出问车门苦方虫豆雪田日";
 		can_read_words += "森圆一果石走木二尖雨山弓刀麦跳桥快跑唱歌爪雷勺乐美苗吃奶灯光男女前后布包裙鞋火画你东伞上下七八十里广";
-		can_read_words += "米吐猫买亭立密皮工毛巾哥弟姐妹衣帽我家书妈灰爷竹子阿姨来么弯爸尘关丽河灭";
+		can_read_words += "米吐猫买亭立密皮工毛巾哥弟姐妹衣帽我家书妈灰爷竹子阿姨来么弯爸尘关丽河灭骑不升乌术莓线床圈号午兵今玉";
+		can_read_words += "课题糕苹太饭入鸡爬树幼儿园换种玩会拿猪狗杂每兔本领孩娃没有发芽宝";
 		
 		for (int i = 0; i < can_read_words.length(); i++) {
 			can_read_dict_words.put(can_read_words.charAt(i), true);
@@ -101,7 +102,11 @@ public class QiqiSearch {
 					System.out.println(output);
 				}
 				else {
-					String output = String.format("%c    %s", input.charAt(i), "null");
+					String can_read = "";
+					if (search.can_read_dict_words.get(input.charAt(i)) != null) {
+						can_read = "yes";
+					}
+					String output = String.format("%c    %s    %s", input.charAt(i), "null", can_read);
 					System.out.println(output);
 				}
 			}
