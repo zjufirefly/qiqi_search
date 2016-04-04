@@ -1,3 +1,4 @@
 qiqi_word~
 bin/QiqiSearch.class
 .gitignore.swp
+/bin/
