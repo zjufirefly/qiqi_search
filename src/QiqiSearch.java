@@ -62,7 +62,8 @@ public class QiqiSearch {
 		can_read_words += "森圆一果石走木二尖雨山弓刀麦跳桥快跑唱歌爪雷勺乐美苗吃奶灯光男女前后布包裙鞋火画你东伞上下七八十里广";
 		can_read_words += "米吐猫买亭立密皮工毛巾哥弟姐妹衣帽我家书妈灰爷竹子阿姨来么弯爸尘关丽河灭骑不升乌术莓线床圈号午兵今玉";
 		can_read_words += "课题糕苹太饭入鸡爬树幼儿园换种玩会拿猪狗杂每兔本领孩娃没有发芽宝和拉起到路红停绿行还要瞅轻地慢是踩疼";
-		can_read_words += "了就跟们好猜两棵个杈能写算干活说话荷在黄黑欢喜在刨青做游戏棋洗服搭积";
+		can_read_words += "了就跟们好猜两棵个杈能写算干活说话荷在黄黑欢喜在刨青做游戏棋洗服搭积满各只主住都喂味西像星样杨桃着晚";
+		can_read_words += "突然阵刮凉所邻居感冒也挤杯给香蕉葡萄病知道处变成春吹柳蝴蝶醒蛙得";
 		
 		for (int i = 0; i < can_read_words.length(); i++) {
 			can_read_dict_words.put(can_read_words.charAt(i), true);
@@ -93,7 +94,7 @@ public class QiqiSearch {
 			for (int i = 0; i < input.length(); i++) {
 				Formatter fmt = new Formatter();
 				if (search.dict_words.get(input.charAt(i)) != null) {
-					int group = (int)search.dict_words.get(input.charAt(i)) / 50 + 1;
+					int group = (int)((int)search.dict_words.get(input.charAt(i)) - 1) / 50 + 1;
 					int index = (int) search.dict_words.get(input.charAt(i));
 					String can_read = "";
 					if (search.can_read_dict_words.get(input.charAt(i)) != null) {
