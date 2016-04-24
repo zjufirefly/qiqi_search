@@ -99,6 +99,7 @@ public class Searcher {
 				System.out.print(output);	
 			}
 			System.out.println("");
+			System.out.println("");
 			
 			// not remember index
 			System.out.println("not remember word index:");
@@ -110,7 +111,7 @@ public class Searcher {
 			System.out.println("");
 			
 			// not remember index
-			System.out.println("not remember word index:");
+			System.out.println("remember word index:");
 			for (int i = 0; i < arr_remember.size(); i++) {
 				OutWord out =  arr_remember.get(i);
 				String output = String.format("%c    %-2d    %-4d", out.word, out.group, out.num);
