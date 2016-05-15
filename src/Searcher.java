@@ -130,8 +130,8 @@ public class Searcher {
 		remember_words += "米吐猫买亭立密皮工毛巾哥弟姐妹衣帽我家书妈灰爷竹子阿姨来么弯爸尘关丽河灭骑不升乌术莓线床圈号午兵今玉";
 		remember_words += "课题糕苹太饭入鸡爬树幼儿园换种玩会拿猪狗杂每兔本领孩娃没有发芽宝和拉起到路红停绿行还要瞅轻地慢是踩疼";
 		remember_words += "了就跟们好猜两棵个杈能写算干活说话荷在黄黑欢喜在刨青做游戏棋洗服搭积满各只主住都喂味西像星样杨桃着晚";
-		remember_words += "突然阵刮凉所邻居感冒也挤杯给香蕉葡萄病知道处变成春吹柳蝴蝶醒蛙得";
-		
+		remember_words += "突然阵刮凉所邻居感冒也挤杯给香蕉葡萄病知道处变成春吹柳蝴蝶醒蛙得咪抹吗条块蛋真老卷明呢呀熊拍让蜜蜂追";
+		remember_words += "团鼠治吧盒根肠炸";
 		for (int i = 0; i < remember_words.length(); i++) {
 			set_remember_words.add(remember_words.charAt(i));
 		}
