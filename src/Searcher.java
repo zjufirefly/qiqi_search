@@ -132,7 +132,8 @@ public class Searcher {
 		remember_words += "了就跟们好猜两棵个杈能写算干活说话荷在黄黑欢喜在刨青做游戏棋洗服搭积满各只主住都喂味西像星样杨桃着晚";
 		remember_words += "突然阵刮凉所邻居感冒也挤杯给香蕉葡萄病知道处变成春吹柳蝴蝶醒蛙得咪抹吗条块蛋真老卷明呢呀熊拍让蜜蜂追";
 		remember_words += "团鼠治吧盒根肠炸但胡巴他颗围把片早那同于终可怕萝卜它动如坚持钻掉周断浇拔恐嘟第串啊呜扭咕获又及菠迫嗯";
-		remember_words += "嘴腰回张现散阳朋友饿擦吞再带惊刺结闻收伸找理待晒喷懒蛇紫";
+		remember_words += "嘴腰回张现散阳朋友饿擦吞再带惊刺结闻收伸找理待晒喷懒蛇紫妞嚷哈揪勾朵她很边用借趣觉象瞧梦对时候贝抱睡";
+		remember_words += "珠臂急才办伙呼当甜啦露解决枕";
 		for (int i = 0; i < remember_words.length(); i++) {
 			set_remember_words.add(remember_words.charAt(i));
 		}
