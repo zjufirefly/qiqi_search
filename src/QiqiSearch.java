@@ -94,7 +94,7 @@ public class QiqiSearch {
 			for (int i = 0; i < input.length(); i++) {
 				Formatter fmt = new Formatter();
 				if (search.dict_words.get(input.charAt(i)) != null) {
-					int group = (int)((int)search.dict_words.get(input.charAt(i)) - 1) / 50 + 1;
+					int group = (int)((int)search.dict_words.get(input.charAt(i)) - 1) / 100;
 					int index = (int) search.dict_words.get(input.charAt(i));
 					String can_read = "";
 					if (search.can_read_dict_words.get(input.charAt(i)) != null) {
