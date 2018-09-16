@@ -125,7 +125,7 @@ public class Searcher {
 	public static void init_remember_words() {
 		remember_words =  "敕穹我大花下不乐书你小爱鱼牛草儿校山田云朵天去四羊鸟上笑跳真人来对说叶唱树江南要们到头低见阳野长早拉";
 		remember_words += "朋友包东西风手北彩落空间学什么可为快动歌照盖背太朝蜂立阴莲新吹习采笼劳当苍蹦戏迟川民似功何喳窝筑蜜府";
-		remember_words += "庐汉茫勒嗡";
+		remember_words += "庐汉茫勒嗡达化华哗桦渔效交郊胶蛟跤较皎绞饺运耘跺躲泗样氧痒洋鸡鹅鸭鸦鸽鹰鹂鹊鹃鹭鹤鸿鸵牙路丽";
 		for (int i = 0; i < remember_words.length(); i++) {
 			set_remember_words.add(remember_words.charAt(i));
 		}
