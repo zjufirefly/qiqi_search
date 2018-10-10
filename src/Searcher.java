@@ -131,7 +131,10 @@ public class Searcher {
 		remember_words += "过秋尺落万千竿解浪斜";
 		remember_words += "鸡皮球流拉谁猫数会成变雾字蜓爬虎翻狼斗灰指腾驾筋蚱";
 		remember_words += "时以为国发把吧巴笆作昨样羊洋种中肿然燃";
+		remember_words += "话身无给常而当于之第嫦宇递余挡裆";
 		remember_words += "";
+		remember_words += "";
+		
 		
 		for (int i = 0; i < remember_words.length(); i++) {
 			set_remember_words.add(remember_words.charAt(i));
