@@ -139,6 +139,12 @@ public class Searcher {
 		remember_words += "森林垂嘴妹剪尾梅摇完台啊情双湾";
 		remember_words += "课远近杏苹业明尘力从众升旗午立刀";
 		remember_words += "影短公诗串更空问方";
+		remember_words += "鼠猴最群颗菜鲜休京城动知让熊直觉孩外加吗很平回答蛙每呀队同久鼻鹿向蛋蝶元悄太背眼睛工";
+		remember_words += "船床夜颗漂唱惊体步复枝颜滴油岁读气晴";
+		remember_words += "接觉再做各种样梦伙伴却趣这过各种样伙伴这太阳道送忙尝香甜温暖该颜因太阳校金秋因为辆匹册支铅棵架";
+		remember_words += "吃忘井村叫毛主席乡亲战士面吃叫主江住没以想告诉路京安门广非常壮观会走北京门广";
+		remember_words += "";
+		remember_words += "";
 		
 		
 		for (int i = 0; i < remember_words.length(); i++) {
