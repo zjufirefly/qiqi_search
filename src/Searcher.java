@@ -134,9 +134,11 @@ public class Searcher {
 		remember_words += "话身无给常而当于之第嫦宇递余挡裆";
 		
 		remember_words += "敢沙莎阳晒盖太态汰海娃哇洼进龟";
-		remember_words += "嘎鲤蛙做文桥纸打排游窗跟尾鸭捉点再语梅拿题欢错胖等轻慢积摇擦令叫溪号句鼓棋鸽算抱折桌疼喳呱泥鹊哦搭喵绕刀剪刨词";
+		remember_words += "嘎蛙做文桥纸打排游跟鸭捉点语题欢错等轻慢积擦令溪号句鼓棋鸽算折桌疼呱泥搭喵绕刨词";
 		remember_words += "";
-		remember_words += "";
+		remember_words += "森林垂嘴妹剪尾梅摇完台啊情双湾";
+		remember_words += "课远近杏苹业明尘力从众升旗午立刀";
+		remember_words += "影短公诗串更空问方";
 		
 		
 		for (int i = 0; i < remember_words.length(); i++) {
