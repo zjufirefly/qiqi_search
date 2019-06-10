@@ -12,7 +12,7 @@ public class EngSearch {
 
 
     public static void intiSightWord() {
-        sightWords[1] = "a and away big can come funny go help here it is jump little my play I the to you blue down find for in look make me not one red run said see three two up we where yellow";
+        sightWords[1] = "a and away big can come funny go help here it is jump little my play i the to you blue down find for in look make me not one red run said see three two up we where yellow";
         sightWords[2] = "all am ate are but did do eat four get have like must no new now please say so soon this that want what who yes at be black brown came good he into on out our pretty ran ride saw she there they too under was well went white with";
         sightWords[3] = "an as ask could fly give her how just know let live may of put take thank then think walk after again any by every form old going had has him his once open over round some stop them were when";
         sightWords[4] = "always around because been before best both call cold does don't fast first goes its off many made pull very why upon buy found gave green or read right sleep sing sit these those tell their us wash which wish work would write your";
@@ -20,7 +20,8 @@ public class EngSearch {
         sightWords[0] = "";
 
         // TODO 会读的sight word
-        remSightWord = " this is my the go in out ";
+        remSightWord = " this is my the go in out can jump run sit over has too many one two three four five six seven goes " +
+                " i ride play a he to ";
 
         for (int i = 1; i <= 5; i++) {
             String temp[] = sightWords[i].split(" ");
@@ -53,21 +54,35 @@ public class EngSearch {
 
     // normal word
     public static String remNormalWord;
-    public static String[] normalWords = new String[6];
+    public static String[] normalWords = new String[100];
 
     public static void initNormal() {
         StringBuffer remBuffer = new StringBuffer();
         // TODO 会读的词
         remBuffer.append(" head belly chest this is my body arm foot leg hand ");
         remBuffer.append(" the in cat go oh cow dog boy mud out pig  ");
+        remBuffer.append(" eye nose mouse face eyebrow chin cheek ear  ");
+        remBuffer.append(" over can dig roll run hug ciimb swim jump sit ");
+        remBuffer.append(" six too four one seven has many two three five pumpkin ");
+        remBuffer.append(" mountain city car goes street bird tree farm table home ");
+        remBuffer.append(" climb play swing hop i ride crawl ");
+        remBuffer.append(" feet a tail draw teech bunny ");
+        remBuffer.append(" plane bus school pool to store he boat train ");
+        remBuffer.append("  ");
+        remBuffer.append("  ");
         remNormalWord = remBuffer.toString();
 
         // TODO 按照raz编号，每册出现的单词
         normalWords[1] = "head belly chest this is my body arm foot leg hand";
         normalWords[2] = "the in cat go oh cow dog boy mud out pig";
-        normalWords[3] = "";
-        normalWords[4] = "";
-        normalWords[5] = "";
+        normalWords[3] = "eye nose mouse face eyebrow chin cheek ear";
+        normalWords[4] = "over can dig roll run hug ciimb swim jump sit ";
+        normalWords[5] = "six too four one seven has many two three five pumpkin";
+        normalWords[6] = "mountain city car goes street bird tree farm table home";
+        normalWords[7] = "climb play swing hop i ride crawl ";
+        normalWords[8] = "feet a tail draw teech bunny";
+        normalWords[9] = "plane bus school pool to store he boat train";
+        normalWords[10] = "";
         normalWords[0] = "";
     }
 
