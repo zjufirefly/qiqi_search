@@ -21,7 +21,7 @@ public class EngSearch {
 
         // TODO 会读的sight word
         remSightWord = " this is my the go in out can jump run sit over has too many one two three four five six seven goes " +
-                " i ride play a he to have his what are and he that they she who ";
+                " i ride play a he to have his what are and he that they she who these those their";
 
         for (int i = 1; i <= 5; i++) {
             String temp[] = sightWords[i].split(" ");
@@ -71,6 +71,7 @@ public class EngSearch {
         remBuffer.append("  ");
         remBuffer.append(" bag kite family talk mom dad cat dog what are and he that has his they she who "); // vipkid u4l1
         remBuffer.append(" equal tablet snowman his what are have hat noodle noodles "); // vipkid u4l2
+        remBuffer.append(" these those their banana apple lie brother sister "); // vipkid u4l3
         remNormalWord = remBuffer.toString();
 
         // TODO 按照raz编号，每册出现的单词
