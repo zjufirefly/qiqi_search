@@ -19,9 +19,9 @@ public class EngSearch {
         sightWords[5] = "about better bring clean cut donedraw drink far full grow hurt laugh myself never own pick shall show start together carry eight fall got hold hot if keep kind light long much nine only seven six small ten today try warm";
         sightWords[0] = "";
 
-        // TODO 会读的sight word
-        remSightWord = " this is my the go in out can jump run sit over has too many one two three four five six seven goes " +
-                " i ride play a he to have his what are and he that they she who these those their";
+        // TODO 会读的sight word,单词前有空格
+        remSightWord = " her they and is my that this he she who " + //vip u4l1
+                " am how big small it one two three four what are these i "; //vipkid u1l1-5
 
         for (int i = 1; i <= 5; i++) {
             String temp[] = sightWords[i].split(" ");
@@ -58,34 +58,12 @@ public class EngSearch {
 
     public static void initNormal() {
         StringBuffer remBuffer = new StringBuffer();
-        // TODO 会读的词
-        remBuffer.append(" head belly chest this is my body arm foot leg hand ");
-        remBuffer.append(" the in cat go oh cow dog boy mud out pig  ");
-        remBuffer.append(" eye nose mouse face eyebrow chin cheek ear  ");
-        remBuffer.append(" over can dig roll run hug ciimb swim jump sit ");
-        remBuffer.append(" six too four one seven has many two three five pumpkin ");
-        remBuffer.append(" mountain city car goes street bird tree farm table home ");
-        remBuffer.append(" climb play swing hop i ride crawl ");
-        remBuffer.append(" feet a tail draw teech bunny ");
-        remBuffer.append(" plane bus school pool to store he boat train ");
-        remBuffer.append("  ");
+        // TODO 会读的词，单词前后有空格
         remBuffer.append(" bag kite family talk mom dad cat dog what are and he that has his they she who "); // vipkid u4l1
-        remBuffer.append(" equal tablet snowman his what are have hat noodle noodles "); // vipkid u4l2
-        remBuffer.append(" these those their banana apple lie brother sister "); // vipkid u4l3
+        remBuffer.append(" am how big small it one two three four what are these happy number teacher fine sad five tired i is my letter "); // vipkid u1l1-5
+
         remNormalWord = remBuffer.toString();
 
-        // TODO 按照raz编号，每册出现的单词
-        normalWords[1] = "head belly chest this is my body arm foot leg hand";
-        normalWords[2] = "the in cat go oh cow dog boy mud out pig";
-        normalWords[3] = "eye nose mouse face eyebrow chin cheek ear";
-        normalWords[4] = "over can dig roll run hug ciimb swim jump sit ";
-        normalWords[5] = "six too four one seven has many two three five pumpkin";
-        normalWords[6] = "mountain city car goes street bird tree farm table home";
-        normalWords[7] = "climb play swing hop i ride crawl ";
-        normalWords[8] = "feet a tail draw teech bunny";
-        normalWords[9] = "plane bus school pool to store he boat train";
-        normalWords[10] = "";
-        normalWords[0] = "";
     }
 
     public static void outputNormalWord(String input) {
