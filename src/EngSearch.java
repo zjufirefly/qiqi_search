@@ -21,7 +21,8 @@ public class EngSearch {
 
         // TODO 会读的sight word,单词前有空格
         remSightWord = " her they and is my that this he she who " + //vip u4l1
-                " am how big small it one two three four what are these i "; //vipkid u1l1-5
+                " am how big small it one two three four what are these i "+ //vipkid u1l1-5
+        " the go in out can jump run sit over "; //raz 2 3 4
 
         for (int i = 1; i <= 5; i++) {
             String temp[] = sightWords[i].split(" ");
