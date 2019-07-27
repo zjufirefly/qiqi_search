@@ -22,7 +22,8 @@ public class EngSearch {
         // TODO 会读的sight word,单词前有空格
         remSightWord = " her they and is my that this he she who " + //vip u4l1
                 " am how big small it one two three four what are these i "+ //vipkid u1l1-5
-                " a no little good yes get on got "+ //ox13-20
+                " a no little good yes get on got did up you see we me had went sleep was an pull old put red said"+ //ox13-20
+                " goes ride play to some "+ //raz 6 7 9
         " the go in out can jump run sit over six seven has too many "; //raz 2 3 4 5
 
         for (int i = 1; i <= 5; i++) {
